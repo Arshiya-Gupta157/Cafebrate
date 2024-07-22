@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafebrating - Cafe Menu</title>
+    <link rel="icon" type="image" href="./logo.png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+
+            <img id="logo" src="./logo.png" alt="Bootstrap">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./product.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+        <h1>Menu</h1>
+        <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+            <a class="navbar-brand" href="#">Indulge in Culinary Excellence!!</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">Coffee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Tea</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading3">Desserts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading4">Snacks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading5">Beverages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading6">Specials</a>
+                </li>
+
+            </ul>
+        </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0">
+            <div class="menuScroll">
+                <div class="coffee">
+                    <h4 id="scrollspyHeading1">Coffee</h4>
+                    <div class="submenu" id="coffee">
+                        <div class="submenu2">
+                            <div class="items">
+                                <div>Espresso</div>
+                                <div>Rs 150/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Cappuccino</div>
+                                <div>Rs 200/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Latte</div>
+                                <div>Rs 220/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Mocha</div>
+                                <div>Rs 250/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Americano</div>
+                                <div>Rs 180/-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tea">
+                    <h4 id="scrollspyHeading2">Tea</h4>
+                    <div class="submenu" id="tea">
+                        <div class="submenu2">
+                            <div class="items">
+                                <div>Masala Chai</div>
+                                <div>Rs 100/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Green tea</div>
+                                <div>Rs 120/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Earl Grey</div>
+                                <div>Rs 150/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Chamomile Tea</div>
+                                <div>Rs 160/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Lemon Tea</div>
+                                <div>Rs 130/-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="desserts">
+                    <h4 id="scrollspyHeading3">Desserts</h4>
+                    <div class="submenu" id="desserts">
+                        <div class="submenu2">
+                            <div class="items">
+                                <div>Ice Cream</div>
+                                <div>Rs 100/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Chocolate Cake</div>
+                                <div>Rs 300/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Cheesecake</div>
+                                <div>Rs 350/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Brownie Sundae</div>
+                                <div>Rs 250/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Tiramisu</div>
+                                <div>Rs 400/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Apple Pie</div>
+                                <div>Rs 280/-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="snacks">
+                    <h4 id="scrollspyHeading4">Snacks</h4>
+                    <div class="submenu" id="snacks">
+                        <div class="submenu2">
+                            <div class="items">
+                                <div>Garlic Bread</div>
+                                <div>Rs 150/-</div>
+                            </div>
+                            <div class="items">
+                                <div>French Fries </div>
+                                <div>Rs 120/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Paneer Tikka</div>
+                                <div>Rs 250/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Chicken Wings</div>
+                                <div>Rs 300/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Veg Sandwich</div>
+                                <div>Rs 200/-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="beverages">
+                    <h4 id="scrollspyHeading5">Beverages</h4>
+                    <div class="submenu" id="beverages">
+                        <div class="submenu2">
+                            <div class="items">
+                                <div>Mango Smoothie</div>
+                                <div>Rs 200/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Lemonade </div>
+                                <div>Rs 120/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Iced Tea</div>
+                                <div>Rs 150/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Cold Coffee</div>
+                                <div>Rs 180/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Orange Juice</div>
+                                <div>Rs 140/-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="specials">
+                    <h4 id="scrollspyHeading6">Specials</h4>
+                    <div class="submenu" id="specials">
+                        <div class="submenu2">
+                            <div class="items">
+                                <div>Blueberry Pancakes</div>
+                                <div>Rs 250/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Avocado Toast</div>
+                                <div>Rs 200/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Mango Cheesecake</div>
+                                <div>Rs 300/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Grilled Chicken Salad</div>
+                                <div>Rs 350/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Spaghetti Carbonara</div>
+                                <div>Rs 400/-</div>
+                            </div>
+                            <div class="items">
+                                <div>Stuffed Bell Peppers</div>
+                                <div>Rs 320/-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<footer>
+    <div class="way">
+        <h5>Navigate</h5>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./product.html">Menu</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h5>Contact Us</h5>
+        <ul>
+            <li>Email: contact@cafebrate.com</li>
+            <li>Phone: +91 9881357238</li>
+            <li>Address: Street No. 51, Mumbai, India</li>
+        </ul>
+    </div>
+    <div class="follow">
+        <h5>Follow Us</h5>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+</footer>
+
+</html>

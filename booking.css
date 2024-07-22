@@ -1,0 +1,61 @@
+* {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    background-color: #F8FAE5;
+    background-repeat: no-repeat;
+
+}
+
+.navbar-custom {
+    background-color: #43766C;
+}
+
+#logo {
+    height: 11vh;
+    width: 16vh;
+}
+
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+.bookingForm {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+.formButtons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #43766C;
+    padding-top: 1em;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0rem;
+}
+
+footer li {
+    text-align: left;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}

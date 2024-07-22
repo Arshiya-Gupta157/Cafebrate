@@ -1,0 +1,99 @@
+* {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+}
+
+body{
+    background-image: linear-gradient(#F8FAE5, #76453B,#F8FAE5,#76453B);
+    background-repeat: no-repeat;
+}
+
+.navbar-custom{
+    background-color: #43766C;
+}
+#logo{
+    height: 11vh;
+    width: 16vh;
+}
+.banner{
+    width: 100vw;
+    height: 70vh;
+}
+.body{
+    padding: 8vh;
+}
+.section1{
+    background-color: #faf5f0;
+    opacity: 0.8;
+    padding: 5vh;
+}
+
+.section1 h1{
+    text-decoration: underline;
+}
+    
+
+p{
+    text-align: justify;
+}
+
+.section2{
+    background-color: #faf5f0;
+    opacity: 0.8;
+    margin-top: 8.5vh;
+    padding: 5vh;
+}
+
+
+.section2 h1{
+    border-bottom: 1vh solid black;
+    text-align: right;
+} 
+
+.event{
+    position: relative;
+}
+
+.event h3{
+    position: absolute;
+    text-align: center;
+    margin: 8em;
+    color: white;
+}
+
+.event p {
+    position: absolute;
+    max-width: 15em;
+    margin: 14em;
+    margin-top: 16em;
+    color: white;
+}
+
+.event img{
+    width: 60vw;
+    height: 50vh;
+    margin-left: 15vw;
+    margin-bottom: 2em;
+    z-index: -1;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #43766C;
+    padding-top: 1em;
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 0rem;
+}
+
+footer li{
+    text-align: left;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
